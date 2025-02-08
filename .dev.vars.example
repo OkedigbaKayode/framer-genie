@@ -1,11 +1,11 @@
-CLIENT_ID=XXXXX
-CLIENT_SECRET=XXXX
+CLIENT_ID=81b5f0b5-2aa0-47f8-8b0c-8bd6e3491a7f
+CLIENT_SECRET=sba_a40044d737afc201e2a9d4a90a7fb85e883d52d3
 
 # Set the Plugin ID when your Plugin is submitted to the Marketplace.
 PLUGIN_ID = ""
 REDIRECT_URI=https://localhost:8787/redirect
 
-AUTHORIZE_ENDPOINT=https://accounts.google.com/o/oauth2/v2/auth
-TOKEN_ENDPOINT=https://oauth2.googleapis.com/token
+AUTHORIZE_ENDPOINT=https://api.supabase.com/v1/oauth/authorize
+TOKEN_ENDPOINT=https://api.supabase.com/v1/oauth/token
 
-SCOPE=https://www.googleapis.com/auth/userinfo.profile
+SCOPE=all
