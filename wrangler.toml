@@ -15,4 +15,5 @@ PLUGIN_PARENT_DOMAIN = "plugins.framercdn.com"
 enabled = true
 
 
+invocation_logs = false
 
