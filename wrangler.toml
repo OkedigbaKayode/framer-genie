@@ -9,3 +9,10 @@ kv_namespaces = [
 
 [vars]
 PLUGIN_PARENT_DOMAIN = "plugins.framercdn.com"
+
+# wrangler.toml (wrangler v3.88.0^)
+[observability.logs]
+enabled = true
+
+
+
